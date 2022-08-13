@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 pragma experimental ABIEncoderV2;
 
@@ -36,7 +36,7 @@ contract Schedule {
               }
           }
          }
-         if (nextMeetingDate < block.timestamp || nextMeetingDate == 2 * block.timestamp) {
+         if (nextMeetingDate < block.timestamp || nextMeetingDate == 5 * block.timestamp) {
              return 0;
          }
          return nextMeetingDate;

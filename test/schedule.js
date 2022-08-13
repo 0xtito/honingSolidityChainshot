@@ -3,8 +3,6 @@ const ethers = require('ethers');
 const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
 const {assert} = require('chai');
 
-// const Schedule = artifacts.require('Schedule');
-
 
 function generateDate(seconds, older = false) {
     const now = Date.now() / 1000;
